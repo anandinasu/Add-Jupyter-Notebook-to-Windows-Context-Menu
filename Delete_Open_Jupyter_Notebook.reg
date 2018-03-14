@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\Open_Jupyter_Notebook]
+
+[-HKEY_CLASSES_ROOT\Directory\shell\Open_Jupyter_Notebook]
+
+[-HKEY_CLASSES_ROOT\DesktopBackground\shell\Open_Jupyter_Notebook]
+
+
+
+

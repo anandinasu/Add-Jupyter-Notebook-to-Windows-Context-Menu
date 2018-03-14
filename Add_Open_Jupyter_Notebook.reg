@@ -1,0 +1,25 @@
+Windows Registry Editor Version 5.00
+
+;Explorer Context Menu
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Open_Jupyter_Notebook]
+@="Open Jupyter Notebook Here"
+"Icon"="C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Anaconda3_64\\Menu\\jupyter.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Open_Jupyter_Notebook\command]
+@="cmd /K jupyter notebook"
+
+;Folder Context Menu
+[HKEY_CLASSES_ROOT\Directory\shell\Open_Jupyter_Notebook]
+@="Open Jupyter Notebook Here"
+"Icon"="C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Anaconda3_64\\Menu\\jupyter.ico"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Open_Jupyter_Notebook\command]
+@="cmd /K jupyter notebook"
+
+;Desktop Context Menu
+[HKEY_CLASSES_ROOT\DesktopBackground\shell\Open_Jupyter_Notebook]
+@="Open Jupyter Notebook Here"
+"Icon"="C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Anaconda3_64\\Menu\\jupyter.ico"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\shell\Open_Jupyter_Notebook\command]
+@="cmd /K jupyter notebook"
